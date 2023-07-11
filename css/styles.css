@@ -1,0 +1,70 @@
+body {
+  background-color: #5A236C;
+  background-image: linear-gradient(to bottom right, #392270, #E9275B);
+  font-family: 'Bellota Text', cursive;
+  text-align: center;
+  color: #FFF;
+}
+
+
+.title {
+  margin: 30px 0 20px 0;
+  font-size: 50px;
+  text-shadow: 0 0 13px #FFF;
+  animation: fadeInOut 3s infinite;
+}
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.description {
+  font-size: 18px;
+}
+#para{
+  font-size: 30px;
+  text-shadow: 0 0 13px #FFF;
+}
+.options {
+  display: flex;
+  justify-content: center;
+}
+.color-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rectangle {
+  margin: 7px;
+  padding: 10px;
+  width: 80px;
+  background-color: transparent;
+  color: #FFF;
+  text-shadow: 0 0 7px #FFF;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #FFF, 0 0 5px #FFF inset;
+  cursor: pointer;
+  outline: 0 !important;
+  transition: all .3s ease-in;
+}
+.circle {
+  margin: 25px 10px;
+  padding: 27px 0;
+  width: 80px;
+  background-color: transparent;
+  font-size: 22px;
+  color: #FFF;
+  text-shadow: 0 0 7px #FFF;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #FFF, 0 0 10px #FFF inset;
+  cursor: pointer;
+  outline: 0 !important;
+  transition: all .3s ease-in;
+}
+.active {
+  box-shadow: 0 0 30px #F44D9B, 0 0 2px #F44D9B inset;
+}
+
